@@ -18,6 +18,7 @@ public class GitVandV {
         // TODO code application logic here
         System.out.println("checking out Git version control");
         System.out.println("Making changes to the class");
+        System.out.println("new branch");
     }
     
 }
