@@ -5,6 +5,8 @@
  */
 package gitvandv;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Sonia
@@ -19,6 +21,12 @@ public class GitVandV {
         System.out.println("checking out Git version control");
         System.out.println("Making changes to the class");
         System.out.println("new branch");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter two integers to sum");
+        int a=scanner.nextInt();
+        int b=scanner.nextInt();
+        System.out.println("The sum is " + (a + b));
+        
     }
     
 }
